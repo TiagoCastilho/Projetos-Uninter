@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Chamando arquivo CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio pessoal (CV online)</title>
+</head>
+
+<body>
+    <!-- Menu desktop e mobile do site -->
+    <header>
+        <div class="menu-desktop">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+        <div class="menu-mobile">
+            <div class="checkbox-container">
+                <div class="checkbox-wrapper">
+                    <input type="checkbox" id="toggle">
+                    <label class="checkbox" for="toggle">
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                    </label>
+                    <div class="menu"></div>
+                    <nav class="menu-items">
+                        <ul>
+                            <li><a href="#inicio">Início</a></li>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#formacao">Formação</a></li>
+                            <li><a href="#portfolio">Projetos</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Início do conteúdo principal do site -->
+    <main>
+        <!-- Início da Seção Benner -->
+        <section class="banner-section" id="inicio">
+            <div class="content">
+                <div class="content-title">
+                    <h2>Portfólio</h2>
+                    <h1>Tiago Castilho</h1>
+                </div>
+                <div class="banner-bg">
+                    <img class="img1" src="./images/bg1.png" alt="Imagem Macaco">
+                    <img class="img2" src="./images/bg2.png" alt="Imagem Robô">
+                    <img class="img3" src="./images/bg3.png" alt="Imagem Caveira">
+                </div>
+                <div class="content-subtitle">
+                    <h3>Fundamentos da Programação Web</h3>
+                    <h3>Atividade Prática</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Início da Seção Sobre Mim-->
+        <section class="about-section" id="sobre">
+            <div class="content-title">
+                <h2>Sobre mim</h2>
+            </div>
+            <div class="content">
+                <div class="content-text">
+                    <h4>Olá, meu nome é Tiago Castilho.</h4>
+                    <p>
+                        Após 12 anos no ramo de seguros, realizei transição de carreira seguindo meu sonho de ser
+                        programador.
+                        Hoje, sou desenvolvedor web e busco aperfeiçoamento diário para que consiga idealizar e
+                        desenvolver os seus sonhos.
+                    </p>
+                    <p>
+                        Que tal trabalharmos juntos?
+                    </p>
+                    <button class="contact-btn"><a href="#contato">Entre em contato</a></button>
+                </div>
+                <div class="content-image">
+                    <img src="./images/foto-perfil.png" alt="Foto de Perfil">
+                </div>
+            </div>
+        </section>
+
+        <!-- Início da Formação -->
+        <section class="education-section" id="formacao">
+            <div class="content-title">
+                <h2>Formação</h2>
+            </div>
+            <div class="content">
+                <div class="content-image">
+                    <img class="logo-img image-01" src="./images/html5-logo.png" alt="Logo HTML">
+                    <img class="logo-img image-02" src="./images/css3-logo.png" alt="Logo CSS">
+                    <img class="logo-img image-03" src="./images/js-logo.png" alt="Logo JS">
+                    <img class="logo-img image-04" src="./images/react-logo.png" alt="Logo React">
+                    <img class="logo-img image-05" src="./images/wp-logo.png" alt="Logo WP">
+                    <img class="logo-img image-06" src="./images/Elementor-Logo-Symbol-Red.png" alt="Logo Elementor">
+                    <img class="logo-img image-07" src="./images/crocoblock-logo.webp" alt="Logo Crocoblock">
+                </div>
+                <div class="content-text">
+                    <p>
+                        Atualmente, estou matriculado no curso de Análise de Desenvolvimento de Sistemas, onde tenho a
+                        oportunidade de aprimorar minhas habilidades e conhecimentos na área da tecnologia. Ao longo do
+                        meu percurso, adquiri proficiência em diversas linguagens e ferramentas essenciais para o
+                        desenvolvimento web.
+                    </p>
+                    <p>
+                        Idiomas:
+                    </p>
+                    <ul>
+                        <li>Portugues - Brasileiro (Nativo)</li>
+                        <li>Inglês (Básico)</li>
+                    </ul>
+                    <p>
+                        Minhas habilidades incluem:
+                    </p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>WordPress (Elementor | Crocoblock)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Início da Seção Projetos-->
+        <section class="project-section" id="portfolio">
+            <div class="content-title">
+                <h2>Projetos</h2>
+            </div>
+            <div class="card-container">
+                <div class="card-text">
+                    <h3>Jogo da Memória</h3>
+                    <p>Este projeto foi desenvolvido em aula com a utilização das seguintes tecnolodias:</p>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Javascript</li>
+                        <li>ReactJS</li>
+                    </ul>
+                </div>
+                <a class="card-link"
+                    href="https://tiagocastilho.github.io/Estudo---ReactJS/react-ex06/build/index.html" target="_blank">
+                    <div class="card card-01">
+                        <div class="card-wrapper">
+                            <h2>Saiba mais</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card-container">
+                <a class="card-link"
+                    href="https://tiagocastilho.github.io/Estudo---ReactJS/react-ex02/build/index.html" target="_blank">
+                    <div class="card card-02">
+                        <div class="card-wrapper">
+                            <h2>Saiba mais</h2>
+                        </div>
+                    </div>
+                </a>
+                <div class="card-text">
+                    <h3>Calculadora de IMC</h3>
+                    <p>Este projeto foi desenvolvido em aula com a utilização das seguintes tecnolodias:</p>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Javascript</li>
+                        <li>ReactJS</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card-text">
+                    <h3>Compra de Pizzas</h3>
+                    <p>Este projeto foi desenvolvido em aula com a utilização das seguintes tecnolodias:</p>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Javascript</li>
+                    </ul>
+                </div>
+                <a class="card-link"
+                    href="https://tiagocastilho.github.io/Estudo---Javascript/Projeto%207%20-%20Compra%20de%20Pizzas/" target="_blank">
+                    <div class="card card-03">
+                        <div class="card-wrapper">
+                            <h2>Saiba mais</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card-container">
+                <a class="card-link"
+                    href="https://tiagocastilho.github.io/Estudo---Javascript/Projeto%208%20-%20Urna%20Eletr%C3%B4nica/" target="_blank">
+                    <div class="card card-04">
+                        <div class="card-wrapper">
+                            <h2>Saiba mais</h2>
+                        </div>
+                    </div>
+                </a>
+                <div class="card-text">
+                    <h3>Urna Eletrônica</h3>
+                    <p>Este projeto foi desenvolvido em aula com a utilização das seguintes tecnolodias:</p>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Javascript</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Início da Contato -->
+        <section class="contact-section" id="contato">
+            <div class="content-title">
+                <h2>Contato</h2>
+            </div>
+            <div class="content">
+                <div class="form-container">
+                    <h4>Formulário de Contato</h4>
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <input type="text" id="nome" name="nome" placeholder="Nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="E-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="mensagem" name="mensagem" placeholder="Mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Enviar</button>
+                    </form>
+                </div>
+                <div class="content-text">
+                    <p>
+                        É um prazer tê-lo aqui! Estou empolgado para saber mais sobre você e como posso ajudar. Se você
+                        tem alguma pergunta, sugestão ou simplesmente quer trocar ideias, não hesite em entrar em
+                        contato. Estou sempre aberto a novos desafios e oportunidades emocionantes.
+                    </p>
+                    <p>
+                        Por favor, preencha os campos com seus dados e a sua mensagem. Prometo responder o
+                        mais rápido possível.
+                    </p>
+                    <p>
+                        Mal posso esperar para ouvir de você!
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Chamando arquivo Javascript -->
+    <script src="./script.js"></script>
+</body>
+<footer class="footer">
+    Created by <a href="#">Tiago Castilho RU: 4365571</a>
+</footer>
+
+</html>
